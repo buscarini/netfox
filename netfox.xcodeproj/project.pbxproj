@@ -61,7 +61,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B3BC020F1C09CDA000C17F3A /* netfox_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = netfox_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3BC020F1C09CDA000C17F3A /* netfox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = netfox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3F8BA711C833ABC00F9FBEA /* NFX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NFX.swift; sourceTree = "<group>"; };
 		B3F8BA721C833ABC00F9FBEA /* NFXAssets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NFXAssets.swift; sourceTree = "<group>"; };
 		B3F8BA731C833ABC00F9FBEA /* NFXConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NFXConstants.swift; sourceTree = "<group>"; };
@@ -128,7 +128,7 @@
 		B3BC02101C09CDA000C17F3A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B3BC020F1C09CDA000C17F3A /* netfox_ios.framework */,
+				B3BC020F1C09CDA000C17F3A /* netfox.framework */,
 				E20FD2E91C6912D400DCFF61 /* netfox_osx.framework */,
 			);
 			name = Products;
@@ -234,7 +234,7 @@
 			);
 			name = netfox_ios;
 			productName = netfox;
-			productReference = B3BC020F1C09CDA000C17F3A /* netfox_ios.framework */;
+			productReference = B3BC020F1C09CDA000C17F3A /* netfox.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E20FD2E81C6912D400DCFF61 /* netfox_osx */ = {
@@ -478,7 +478,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kasketis.netfox-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = netfox;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -496,7 +496,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kasketis.netfox-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = netfox;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
